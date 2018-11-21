@@ -40,7 +40,9 @@ fun main() {
         return
     }
 
-    val savedList = rowsToSave.map { matrix.rows[it - 1] }
+    val savedList = rowsToSave.map { matrix.rows[it - 1] }.let { savedRows ->
+        MyLinearList<MatrixRow<Int>>().apply { addAll(savedRows) }
+    }
 
     println("Saved rows: ")
 
