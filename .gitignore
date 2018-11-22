@@ -1,2 +1,7 @@
 /.idea
 /out
+\.gradle/4\.8/fileHashes/
+
+\.DS_Store
+
+.idea/workspace.xml
