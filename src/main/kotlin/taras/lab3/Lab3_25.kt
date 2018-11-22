@@ -7,7 +7,7 @@ fun main() {
     println("Results:")
     results.printResults()
     println()
-    
+
     println("Looser is: ${results.findMinCandidate().name}")
 }
 
