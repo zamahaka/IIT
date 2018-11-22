@@ -1,9 +1,6 @@
 package taras.lab4
 
 import java.awt.Point
-import kotlin.math.cos
-import kotlin.math.sin
-import javax.swing.Spring.height
 import kotlin.math.roundToInt
 
 
