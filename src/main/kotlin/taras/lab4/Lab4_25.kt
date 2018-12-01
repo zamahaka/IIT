@@ -3,7 +3,7 @@ package taras.lab4
 import kotlin.random.Random
 import kotlin.random.nextInt
 
-fun main() {
+fun main(args: Array<String>) {
 
     println("Enter first array size:")
     val firstList = SimpleArray(readLine()?.toIntOrNull() ?: 0)

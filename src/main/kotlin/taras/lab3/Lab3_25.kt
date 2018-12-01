@@ -1,7 +1,7 @@
 package taras.lab3
 
 
-fun main() {
+fun main(args: Array<String>) {
     val results = Elector(candidates, cities).elect()
 
     println("Results:")

@@ -6,7 +6,7 @@ class StackIntoQueueConverter<T> {
     fun convert(stack: Stack<T>): Queue<T> = ArrayDeque<T>(stack)
 }
 
-fun main() {
+fun main(args: Array<String>) {
     print("Enter stack values, split by space ' ' : ")
     val values = readLine()?.split(Regex("\\s+"))?.takeIf { it.isNotEmpty() } ?: run {
         println("Invalid stack entered")

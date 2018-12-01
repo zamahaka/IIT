@@ -9,7 +9,7 @@ private val vowels = listOf<Char>(
 )
 
 
-fun main() {
+fun main(args: Array<String>) {
     val capitalizedSentences = getFile()?.let { file ->
         FileReader(file)
             .buffered()

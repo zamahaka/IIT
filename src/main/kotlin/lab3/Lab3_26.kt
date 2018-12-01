@@ -8,7 +8,7 @@ private val cities = (0 until k).map(Int::inc).map { "V$it" }.map(::City)
 private val candidates = (0 until k - 1).map(Int::inc).map { "C$it" }.map(::Candidate)
 
 
-fun main() {
+fun main(args: Array<String>) {
     val results = Elector(candidates, cities).elect()
 
     println("Results:")

@@ -3,7 +3,7 @@ package lab7
 import java.io.FileReader
 
 //false < true => true
-fun main() {
+fun main(args: Array<String>) {
     val sentenceSequence = getFile()?.let { file ->
         FileReader(file)
             .buffered()

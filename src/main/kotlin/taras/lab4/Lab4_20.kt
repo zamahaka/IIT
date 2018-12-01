@@ -4,7 +4,7 @@ import java.awt.Point
 import kotlin.math.roundToInt
 
 
-fun main() {
+fun main(args: Array<String>) {
 
     var shapeId = 0
     readProperty(

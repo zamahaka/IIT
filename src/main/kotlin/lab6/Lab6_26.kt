@@ -86,7 +86,7 @@ private object Commands {
 }
 
 
-fun main() {
+fun main(args: Array<String>) {
 
     print("Enter source of trains (file, console): ")
     val trains = when (readLine()) {

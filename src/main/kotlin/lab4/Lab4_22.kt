@@ -2,7 +2,7 @@ package lab4
 
 import taras.lab4.readProperty
 
-fun main() {
+fun main(args: Array<String>) {
 
     println("Enter first complex number:")
     println()

@@ -7,7 +7,7 @@ data class MatrixRow<T>(val values: List<T>)
 class Matrix<T>(val rows: List<MatrixRow<T>>)
 
 
-fun main() {
+fun main(args: Array<String>) {
     print("Enter row count: ")
     val rowsCount = readLine()?.toIntOrNull() ?: run {
         println("Wrong number supplied")

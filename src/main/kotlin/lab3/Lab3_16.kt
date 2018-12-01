@@ -89,7 +89,7 @@ class RentalCar : Consumer() {
 
 }
 
-fun main() {
+fun main(args: Array<String>) {
 
     print("Enter Airline count: ")
     val airlineCount = readLine()?.toIntOrNull() ?: 1

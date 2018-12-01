@@ -43,7 +43,7 @@ private object Command {
 }
 
 
-fun main() {
+fun main(args: Array<String>) {
     val orders = mutableListOf<Order>(
         Order(
             person = Person(firstName = "Y", lastName = "S"),

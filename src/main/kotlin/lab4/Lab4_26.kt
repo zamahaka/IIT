@@ -5,7 +5,7 @@ import kotlin.random.Random
 import kotlin.random.nextInt
 
 
-fun main() {
+fun main(args: Array<String>) {
 
     println("Enter first polinom power:")
     val firstPolinom = Polinom(readLine()?.toInt() ?: 0)
